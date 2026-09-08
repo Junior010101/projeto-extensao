@@ -282,6 +282,17 @@ function App() {
     <>
       <Header />
       <Hero beneficios={BENEFITS} engajamento={ENGAJAMENTO} alcance={ALCANCE} />
+      <a
+        href="https://wa.me/558187364790"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Entre em contato"
+        className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-transform hover:scale-110 hover:bg-green-400 active:scale-95"
+      >
+        <span className="material-symbols-outlined text-8xl">
+          contact_support
+        </span>
+      </a>
       <ConfidenceBar items={ITENS} />
       <About customerPains={CUSTOMER} />
       <Services servicos={SERVICOS} />

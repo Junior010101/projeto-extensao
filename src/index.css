@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700&display=swap");
+@import "tailwindcss";
+
+/* Importa as animações separadas do Hero */
+@import "./styles/hero.css";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+
+  --color-ball: rgba(90, 29, 146, 0.453);
+  --color-background: rgb(18, 0, 32);
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-background);
+  color: #ffffff;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Aplica a fonte Montserrat a todos os títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Orbe de luz 1 (Puxado para o extremo superior direito) */
+body::before {
+  content: "";
+  position: fixed;
+  top: -50%;
+  right: -30%;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    var(--color-ball) 0%,
+    var(--color-background) 70%
+  );
+  filter: blur(50px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Orbe de luz 2 (Puxado para o extremo inferior esquerdo) */
+body::after {
+  content: "";
+  position: fixed;
+  bottom: -50%;
+  left: -30%;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    circle,
+    var(--color-ball) 0%,
+    var(--color-background) 70%
+  );
+  filter: blur(60px);
+  pointer-events: none;
+  z-index: -1;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

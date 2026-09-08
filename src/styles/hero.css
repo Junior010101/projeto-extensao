@@ -1,0 +1,27 @@
+/* styles/hero.css */
+
+/* Animações e variáveis do Tailwind CSS v4 */
+@theme {
+  --animate-float-slow: float-slow 4s ease-in-out infinite;
+  --animate-float-fast: float-fast 3s ease-in-out infinite;
+
+  @keyframes float-slow {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-16px);
+    }
+  }
+
+  @keyframes float-fast {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-22px);
+    }
+  }
+}

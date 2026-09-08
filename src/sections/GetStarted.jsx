@@ -16,7 +16,7 @@ export default function GetStarted() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const dataToSend = {
-      access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY, // Obtenha gratuitamente em web3forms.com
+      access_key: import.meta.env.WEB3FORMS_ACCESS_KEY, // Obtenha gratuitamente em web3forms.com
       subject: `🚀 Novo Lead: ${formData.name} (${formData.niche})`,
       from_name: "Landing Page B2C Infos",
       nome: formData.name,

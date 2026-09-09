@@ -1,3 +1,2 @@
 // entire file content ...
 // ... goes in between
-// Analise o package.json e liste suas dependencias

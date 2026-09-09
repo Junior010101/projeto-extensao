@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "87146abc9bde3e5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "58af0ffdd9ec4a71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3049a574dca1c2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_REGRAS_NEGOCIO/perfis-usuario.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "perfis-usuario"
+            }
+          },
+          {
+            "id": "e8b15155aa2fbe98",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "61878aba3c2aa883",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf8fb60f9187fdf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9db46d3c0c1a15f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "438b1f0127a08eb6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "debfeb379c27eabc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "af799cc109d28970",
+    "type": "split",
+    "children": [
+      {
+        "id": "156c22a78fc8fb07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad1e4e38df3185b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "145ec9692ffd3888",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "ba45bfbc0060309c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "5354e3e7cb8fb3aa",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "819df235ec23542c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "e8b15155aa2fbe98",
+  "lastOpenFiles": [
+    "02_REGRAS_NEGOCIO/perfis-usuario.md",
+    "02_REGRAS_NEGOCIO/casos-uso.md",
+    "01_ARQUITETURA/stack.md",
+    "01_ARQUITETURA/fluxo-dados.md",
+    "00_INDEX.md",
+    "04_CHATS_MEMORIA/decisoes-adr.md",
+    "03_PADROES_CODIGO/componentes.md",
+    "03_PADROES_CODIGO/convencoes.md",
+    "04_CHATS_MEMORIA",
+    "03_PADROES_CODIGO",
+    "02_REGRAS_NEGOCIO",
+    "01_ARQUITETURA"
+  ]
+}

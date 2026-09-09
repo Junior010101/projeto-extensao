@@ -1,4 +1,52 @@
-export default function Pricing({ plans }) {
+const DEFAULT_PLANS = [
+  {
+    name: "Diagnóstico",
+    description:
+      "Ideal para entender o cenário atual e dar os primeiros passos.",
+    price: "R$ 0",
+    period: "/único",
+    highlighted: false,
+    features: [
+      "Análise completa de perfil",
+      "Plano de ação para 30 dias",
+      "1 Sessão individual de 1h",
+      "Material de apoio em PDF",
+    ],
+    buttonText: "Começar agora",
+    acao: () => {
+      const element = document.getElementById("contato");
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    },
+  },
+  {
+    name: "Consultoria de Presença Digital",
+    description:
+      "Acompanhamento presencial no comércio para estruturar sua presença digital.",
+    price: "R$ 0",
+    period: "/gratuito",
+    highlighted: true,
+    badge: "Extensão Uninassau",
+    features: [
+      "Análise completa de perfil no Instagram",
+      "Otimização de bio e catálogo no WhatsApp Business",
+      "Encontro presencial no comércio em Paulista-PE",
+      "Treinamento prático de fotos de produtos no celular",
+      "Material de apoio prático em PDF",
+    ],
+    buttonText: "Agendar visita",
+    acao: () => {
+      const phone = "558187364790";
+      const message = encodeURIComponent(
+        "Olá! Gostaria de mais informações sobre os serviços.",
+      );
+      window.location.href = `https://wa.me/${phone}?text=${message}`;
+    },
+  },
+];
+
+export default function Pricing({ plans = DEFAULT_PLANS }) {
   return (
     <section
       id="investimento"
@@ -67,7 +115,14 @@ export default function Pricing({ plans }) {
               <br />
               {/* Lista de Benefícios */}
               <ul className="flex flex-col gap-4 mb-8 grow">
-                {plan.features.map((feature, idx) => (
+                {plan.features
+                  .filter(
+                    (feature) =>
+                      !feature
+                        .toLowerCase()
+                        .includes("suporte via whatsapp por 7 dias"),
+                  )
+                  .map((feature, idx) => (
                   <li
                     key={idx}
                     className="flex items-start gap-3 text-sm text-gray-300"

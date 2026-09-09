@@ -15,6 +15,7 @@ mindmap
       Pequeno Lojista do Centro de Paulista
       Usuário Mobile Predominante
     🎓 Aluno Extensionista
+      Guilherme Henrique
       Lucas Ximenes
       Marcos Antônio
       Marcondes Paixão
@@ -56,6 +57,7 @@ Comerciantes, feirantes, prestadores de serviços e pequenos empresários locali
 
 ### Descrição
 Estudantes do curso de Bacharelado em Ciência da Computação da Uninassau Paulista executando o projeto PEX-MDL-54:
+- **Guilherme Henrique** (Matrícula: `01924729`)
 - **Lucas Ximenes de Albuquerque** (Matrícula: `01893483`)
 - **Marcos Antônio de Lima Lira Neto** (Matrícula: `01898289`)
 - **Marcondes Paixão Silva de Albuquerque Júnior** (Matrícula: `01901595`)

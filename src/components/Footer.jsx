@@ -76,17 +76,34 @@ export default function Footer() {
       <br />
       {/* Linha Divisória e Copyright */}
       <div className="w-full max-w-6xl mx-auto pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
-        <span>
-          © {new Date().getFullYear()} B2C Infos | Mentoria Digital. Todos os
-          direitos reservados.
-        </span>
+        <div className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left">
+          <span>
+            © {new Date().getFullYear()} B2C Infos | Mentoria Digital. Todos os
+            direitos reservados.
+          </span>
+          <span className="hidden sm:inline text-gray-600">•</span>
+          <a
+            href="https://www.gnu.org/licenses/gpl-3.0.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors text-gray-400"
+          >
+            GPL-3.0 License
+          </a>
+        </div>
         <div className="flex gap-4">
-          <span className="hover:text-white cursor-pointer transition-colors">
+          <a
+            href="/termos-de-uso.html"
+            className="hover:text-white cursor-pointer transition-colors"
+          >
             Termos de Uso
-          </span>
-          <span className="hover:text-white cursor-pointer transition-colors">
+          </a>
+          <a
+            href="/politica-de-privacidade.html"
+            className="hover:text-white cursor-pointer transition-colors"
+          >
             Política de Privacidade
-          </span>
+          </a>
         </div>
       </div>
     </footer>

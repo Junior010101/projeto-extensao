@@ -273,7 +273,7 @@ const FAQS = [
   {
     question: "Quem são as pessoas que realizarão a consultoria?",
     answer:
-      "A consultoria é conduzida por estudantes extensionistas do curso de Ciência da Computação da Uninassau Paulista (Lucas, Marcos, Marcondes, Thiago e Tiago), sob orientação docente, aplicando metodologias práticas de presença digital adaptadas à realidade local.",
+      "A consultoria é conduzida por estudantes extensionistas do curso de Ciência da Computação da Uninassau Paulista (Guilherme, Lucas, Marcos, Marcondes, Thiago e Tiago), sob orientação docente, aplicando metodologias práticas de presença digital adaptadas à realidade local.",
   },
   {
     question: "Quem pode participar do projeto?",

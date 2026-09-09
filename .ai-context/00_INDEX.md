@@ -39,6 +39,7 @@ Landing page focada na atração e conversão de micro e pequenos empreendedores
 - **Código do Projeto:** `PEX-MDL-54`
 - **Local de Intervenção em Campo:** Centro do município de Paulista-PE (Av. Marechal Floriano Peixoto, s/n e comércio adjacente)
 - **Equipe Discente:**
+  - Guilherme Henrique (Matrícula: `01924729`)
   - Lucas Ximenes de Albuquerque (Matrícula: `01893483`)
   - Marcos Antônio de Lima Lira Neto (Matrícula: `01898289`)
   - Marcondes Paixão Silva de Albuquerque Júnior (Matrícula: `01901595`)

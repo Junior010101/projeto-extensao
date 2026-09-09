@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termos de Uso | Consultoria de Presença Digital (PEX-MDL-54)</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --color-background: #120020;
+        --color-card: rgba(255, 255, 255, 0.03);
+        --color-card-border: rgba(255, 255, 255, 0.08);
+        --color-primary: #b535f6;
+        --color-primary-hover: #9822d8;
+        --color-text: #e2e8f0;
+        --color-text-muted: #94a3b8;
+        --color-heading: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: var(--color-background);
+        color: var(--color-text);
+        line-height: 1.7;
+        min-height: 100vh;
+        position: relative;
+        overflow-x: hidden;
+        padding: 2.5rem 1.25rem;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        top: -30%;
+        right: -20%;
+        width: 70vw;
+        height: 70vw;
+        background: radial-gradient(circle, rgba(181, 53, 246, 0.2) 0%, rgba(18, 0, 32, 0) 70%);
+        filter: blur(80px);
+        pointer-events: none;
+        z-index: -1;
+      }
+
+      body::after {
+        content: "";
+        position: fixed;
+        bottom: -30%;
+        left: -20%;
+        width: 70vw;
+        height: 70vw;
+        background: radial-gradient(circle, rgba(147, 51, 234, 0.18) 0%, rgba(18, 0, 32, 0) 70%);
+        filter: blur(90px);
+        pointer-events: none;
+        z-index: -1;
+      }
+
+      .container {
+        max-width: 860px;
+        margin: 0 auto;
+      }
+
+      header {
+        margin-bottom: 2.5rem;
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--color-primary);
+        text-decoration: none;
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        transition: color 0.2s, transform 0.2s;
+      }
+
+      .back-link:hover {
+        color: #d88aff;
+        transform: translateX(-3px);
+      }
+
+      .badge {
+        display: inline-block;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-weight: 700;
+        padding: 0.25rem 0.75rem;
+        border-radius: 9999px;
+        background-color: rgba(181, 53, 246, 0.15);
+        color: #d88aff;
+        border: 1px solid rgba(181, 53, 246, 0.3);
+        margin-bottom: 0.75rem;
+      }
+
+      h1, h2, h3 {
+        font-family: "Montserrat", sans-serif;
+        color: var(--color-heading);
+      }
+
+      h1 {
+        font-size: 2.25rem;
+        line-height: 1.25;
+        margin-bottom: 0.5rem;
+      }
+
+      .subtitle {
+        color: var(--color-text-muted);
+        font-size: 0.95rem;
+      }
+
+      .content-card {
+        background: var(--color-card);
+        border: 1px solid var(--color-card-border);
+        border-radius: 1rem;
+        padding: 2.25rem 2.5rem;
+        backdrop-filter: blur(16px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      }
+
+      section {
+        margin-bottom: 2rem;
+      }
+
+      section:last-child {
+        margin-bottom: 0;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin-bottom: 0.75rem;
+        color: #ffffff;
+      }
+
+      p {
+        margin-bottom: 0.85rem;
+        color: #cbd5e1;
+        font-size: 0.95rem;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0.85rem;
+      }
+
+      li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #cbd5e1;
+        font-size: 0.95rem;
+      }
+
+      li::before {
+        content: "•";
+        color: var(--color-primary);
+        font-weight: bold;
+        position: absolute;
+        left: 0.5rem;
+      }
+
+      .highlight-box {
+        background: rgba(181, 53, 246, 0.08);
+        border-left: 3px solid var(--color-primary);
+        padding: 1rem 1.25rem;
+        border-radius: 0 0.5rem 0.5rem 0;
+        margin: 1rem 0;
+      }
+
+      .highlight-box p {
+        margin: 0;
+        color: #e2e8f0;
+      }
+
+      footer {
+        margin-top: 2.5rem;
+        text-align: center;
+        color: var(--color-text-muted);
+        font-size: 0.825rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        padding-top: 1.5rem;
+      }
+
+      @media (max-width: 640px) {
+        body {
+          padding: 1.5rem 1rem;
+        }
+
+        h1 {
+          font-size: 1.75rem;
+        }
+
+        .content-card {
+          padding: 1.5rem 1.25rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="/" class="back-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Voltar para a página inicial
+        </a>
+        <br />
+        <span class="badge">Projeto de Extensão Universitária</span>
+        <h1>Termos de Uso</h1>
+        <p class="subtitle">
+          Consultoria de Presença Digital (PEX-MDL-54) • Uninassau Paulista • Atualizado em Março de 2026
+        </p>
+      </header>
+
+      <main class="content-card">
+        <section>
+          <h2>1. Natureza do Projeto e Gratuidade Incondicional</h2>
+          <p>
+            A plataforma e a mentoria presencial de presença digital são atividades de extensão universitária desenvolvidas por discentes do curso de Bacharelado em Ciência da Computação da <strong>Uninassau Paulista</strong>, sob a identificação curricular <strong>PEX-MDL-54</strong>.
+          </p>
+          <div class="highlight-box">
+            <p>
+              <strong>Gratuidade 100%:</strong> Todo o conteúdo, diagnóstico e sessões de consultoria presencial são inteiramente gratuitos. Em nenhuma hipótese será exigido qualquer pagamento, taxa oculta ou contrapartida financeira do empreendedor participante.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>2. Territorialidade e Elegibilidade</h2>
+          <p>
+            O atendimento presencial em campo é direcionado prioritariamente a microempreendedores individuais (MEIs), pequenos lojistas, feirantes e comerciantes do município de <strong>Paulista - PE</strong> (com ênfase no Centro comercial, Av. Marechal Floriano Peixoto e adjacências).
+          </p>
+          <p>
+            Comerciantes de outras localidades podem ter acesso aos materiais informativos online, porém as visitas e mentorias presenciais são restritas à área de intervenção delimitada no plano acadêmico.
+          </p>
+        </section>
+
+        <section>
+          <h2>3. Metodologia Pedagógica e Limites de Atuação</h2>
+          <p>
+            A equipe extensionista atua estritamente como <strong>educadores e facilitadores digitais</strong>, transferindo conhecimento prático ("mão na massa"):
+          </p>
+          <ul>
+            <li>As orientações são conduzidas diretamente no smartphone do próprio comerciante para assegurar sua total autonomia operacional após os encontros;</li>
+            <li>A equipe discente não funciona como agência terceirizada de marketing nem se responsabiliza pelo gerenciamento contínuo de postagens;</li>
+            <li>Não são prometidos resultados pré-determinados de faturamento ou alcance orgânico em plataformas de terceiros (Instagram, Meta, WhatsApp), pois dependem da constância e estratégias comerciais do comerciante.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>4. Segurança e Não Solicitação de Senhas</h2>
+          <p>
+            Em conformidade com as diretrizes de segurança da informação e ética do projeto:
+          </p>
+          <ul>
+            <li>Nenhum membro da equipe discente ou do corpo acadêmico solicitará senhas pessoais de redes sociais, e-mails, contas bancárias ou chaves Pix;</li>
+            <li>Todas as intervenções técnicas (como criação de biografia ou catálogo) são executadas com a participação direta do empreendedor.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>5. Propriedade Intelectual e Licenciamento (GPL-3.0)</h2>
+          <p>
+            O código-fonte da aplicação web é disponibilizado sob a licença de software livre <strong>GNU General Public License v3.0 (GPL-3.0)</strong>, garantindo transparência, liberdade de estudo e evolução comunitária.
+          </p>
+          <p>
+            Marcas, logotipos e referências institucionais da Uninassau e de plataformas terceiras pertencem exclusivamente aos seus respectivos titulares.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. Contato Institucional</h2>
+          <p>
+            Para agendamentos presenciais, dúvidas ou alinhamentos sobre estes termos de uso:
+          </p>
+          <ul>
+            <li><strong>WhatsApp da Equipe:</strong> (81) 99541-2735</li>
+            <li><strong>E-mail Institucional:</strong> lucasximenes2007@gmail.com</li>
+            <li><strong>Coordenação Acadêmica:</strong> Curso de Ciência da Computação — Uninassau Paulista</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2026 Consultoria de Presença Digital (PEX-MDL-54) • Uninassau Paulista • Licenciado sob GPL-3.0</p>
+      </footer>
+    </div>
+  </body>
+</html>

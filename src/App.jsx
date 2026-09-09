@@ -201,7 +201,7 @@ const PLANS = [
     ],
     buttonText: "Quero escalar",
     acao: () => {
-      const phone = "558187364790";
+      const phone = "5581995412735";
       const message = encodeURIComponent(
         "Olá! Gostaria de mais informações sobre os serviços.",
       );
@@ -245,6 +245,13 @@ const TEAM = [
     description:
       "Responsável por traduzir estratégias em identidades visuais premium.",
   },
+  {
+    name: "Guilherme Henrique",
+    role: "Analista de Branding",
+    image: "https://avatars.githubusercontent.com/u/316653993?v=4",
+    description:
+      "Especialista em construção de identidade e percepção de marca no digital.",
+  },
 ];
 
 const FAQS = [
@@ -285,17 +292,20 @@ function App() {
     <>
       <Header />
       <Hero beneficios={BENEFITS} engajamento={ENGAJAMENTO} alcance={ALCANCE} />
-      <a
-        href="https://wa.me/558187364790"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Entre em contato"
+      <button
+        onClick={() => {
+          const phone = "5581995412735";
+          const message = encodeURIComponent(
+            "Olá! Gostaria de mais informações sobre os serviços.",
+          );
+          window.location.href = `https://wa.me/${phone}?text=${message}`;
+        }}
         className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-transform hover:scale-110 hover:bg-green-400 active:scale-95"
       >
         <span className="material-symbols-outlined text-8xl">
           contact_support
         </span>
-      </a>
+      </button>
       <ConfidenceBar items={ITENS} />
       <About customerPains={CUSTOMER} />
       <Services servicos={SERVICOS} />

@@ -37,7 +37,7 @@ const DEFAULT_PLANS = [
     ],
     buttonText: "Agendar visita",
     acao: () => {
-      const phone = "558187364790";
+      const phone = "5581995412735";
       const message = encodeURIComponent(
         "Olá! Gostaria de mais informações sobre os serviços.",
       );
@@ -123,26 +123,26 @@ export default function Pricing({ plans = DEFAULT_PLANS }) {
                         .includes("suporte via whatsapp por 7 dias"),
                   )
                   .map((feature, idx) => (
-                  <li
-                    key={idx}
-                    className="flex items-start gap-3 text-sm text-gray-300"
-                  >
-                    <svg
-                      className="w-5 h-5 text-[#b535f6] shrink-0"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
+                    <li
+                      key={idx}
+                      className="flex items-start gap-3 text-sm text-gray-300"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                    <span>{feature}</span>
-                  </li>
-                ))}
+                      <svg
+                        className="w-5 h-5 text-[#b535f6] shrink-0"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                      <span>{feature}</span>
+                    </li>
+                  ))}
               </ul>
               <br />
               {/* Botão de Ação */}
@@ -178,7 +178,7 @@ export default function Pricing({ plans = DEFAULT_PLANS }) {
           </div>
           <button
             onClick={() => {
-              const phone = "558187364790";
+              const phone = "5581995412735";
               const message = encodeURIComponent(
                 "Olá! Gostaria de mais informações sobre os serviços.",
               );

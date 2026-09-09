@@ -1,39 +1,6 @@
 import { useState } from "react";
 
-const DEFAULT_FAQS = [
-  {
-    question: "A consultoria é realmente 100% gratuita?",
-    answer:
-      "Sim, totalmente gratuita. Este é um projeto de extensão universitária do curso de Ciência da Computação da Uninassau Paulista (PEX-MDL-54), voltado ao apoio comunitário e ao fortalecimento do comércio local de Paulista-PE. Não cobramos nenhum valor nem taxa oculta.",
-  },
-  {
-    question: "Onde e como acontecem os encontros da consultoria?",
-    answer:
-      "Os encontros são presenciais e realizados diretamente no seu próprio comércio, loja ou ponto de venda no município de Paulista-PE. Nossa equipe vai até você em data e horário combinados para não atrapalhar o fluxo do seu atendimento.",
-  },
-  {
-    question: "Preciso ter computador ou equipamentos caros para participar?",
-    answer:
-      "Não. O treinamento é 100% prático e focado no uso do seu próprio celular. Ensinamos você a usar as ferramentas gratuitas do Instagram e do WhatsApp Business, além de técnicas simples de iluminação natural e fotografia de produtos.",
-  },
-  {
-    question: "Quem são as pessoas que realizarão a consultoria?",
-    answer:
-      "A consultoria é conduzida por estudantes extensionistas do curso de Ciência da Computação da Uninassau Paulista (Lucas, Marcos, Marcondes, Thiago e Tiago), sob orientação docente, aplicando metodologias práticas de presença digital adaptadas à realidade local.",
-  },
-  {
-    question: "Quem pode participar do projeto?",
-    answer:
-      "Microempreendedores individuais (MEI), comerciantes de rua, feirantes e pequenos lojistas que atuam no município de Paulista-PE (com foco no Centro e bairros vizinhos) e desejam melhorar sua visibilidade e atrair novos clientes.",
-  },
-  {
-    question: "Como faço para agendar a consultoria?",
-    answer:
-      "Basta preencher o formulário de diagnóstico rápido aqui no site ou clicar no botão do WhatsApp para falar diretamente conosco. Nossa equipe entrará em contato para alinhar o melhor dia e horário da visita.",
-  },
-];
-
-export default function FAQs({ faqs = DEFAULT_FAQS }) {
+export default function FAQs({ faqs }) {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -55,8 +22,8 @@ export default function FAQs({ faqs = DEFAULT_FAQS }) {
             Perguntas frequentes<span className="text-[#b535f6]">.</span>
           </h2>
           <p className="text-gray-400 text-sm lg:text-base max-w-xl leading-relaxed">
-            Tudo o que você precisa saber sobre a consultoria presencial e gratuita
-            de presença digital para o comércio de Paulista-PE.
+            Tudo o que você precisa saber sobre a consultoria presencial e
+            gratuita de presença digital para o comércio de Paulista-PE.
           </p>
         </div>
 
